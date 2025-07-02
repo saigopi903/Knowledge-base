@@ -1,56 +1,79 @@
 <html>
 <head>
-  <title>Sai | Personal Website</title>
+  <title>Sai | Portfolio</title>
   <style>
     body {
-      font-family: Arial;
-      text-align: center;
-      background-color: #f0f8ff;
-      color: #333;
       margin: 0;
       padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f4f8;
+      color: #333;
+      text-align: center;
     }
     header {
-      background-color: #0066cc;
+      background-color: #4e73df;
       color: white;
-      padding: 2rem 0;
-    }
-    section {
       padding: 2rem;
     }
-    a {
-      color: #0066cc;
+    img {
+      border-radius: 50%;
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      margin-top: 1rem;
+      border: 4px solid white;
+    }
+    h1 {
+      margin-top: 1rem;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background: #4e73df;
+      color: white;
+      border: none;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
     }
+    .btn:hover {
+      background: #2e59d9;
+    }
     footer {
-      background-color: #eee;
+      background: #ddd;
       padding: 1rem;
       margin-top: 2rem;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Hello, I'm Sai</h1>
-    <p>Coding Enthusiast | Web Developer</p>
+    <h1>Hello, I'm Sai 👋</h1>
+    <p>Web Developer & Coder</p>
+    <!-- Optional photo -->
+    <img src="sai.jpg" alt="Sai's photo">
   </header>
 
-  <section>
+  <div class="container">
     <h2>About Me</h2>
-    <p>I enjoy building websites and learning new coding skills.</p>
-  </section>
+    <p>I love building websites using HTML, CSS, and JavaScript. I enjoy learning, coding, and sharing ideas online.</p>
 
-  <section>
+    <h2>Projects</h2>
+    <p>✔ Portfolio Website<br>✔ Calculator App<br>✔ To-Do List</p>
+
     <h2>Contact Me</h2>
-    <p>
-      <a href="https://github.com/saigopi903" target="_blank">GitHub</a> |
-      <a href="mailto:youremail@example.com">Email</a>
-    </p>
-  </section>
+    <a class="btn" href="https://github.com/saigopi903" target="_blank">GitHub</a>
+    <a class="btn" href="mailto:youremail@example.com">Email Me</a>
+  </div>
 
   <footer>
-    <p>© 2025 Sai. All rights reserved.</p>
+    &copy; 2025 Sai | All rights reserved.
   </footer>
+
 </body>
 </html>
