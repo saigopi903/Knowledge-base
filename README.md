@@ -1,58 +1,88 @@
-# Knowledge-base<!DOCTYPE html>
+# Knowledge-base
 <html>
 <head>
-  content="width=device-width,initialscale=1.0" />
-  <title>Sai | Personal Website</title>
+  <title>Sai | Developer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f0f8ff;
-      color: #333;
       margin: 0;
-      padding: 0;
+      background-color: #f4f4f4;
     }
-    header {
-      background-color: #0066cc;
+
+    nav {
+      background-color: #222;
       color: white;
-      padding: 2rem 0;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
     }
-    section {
-      padding: 2rem;
-    }
-    a {
-      color: #0066cc;
+
+    nav a {
+      color: white;
+      margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
+
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
     footer {
-      background-color: #eee;
+      background-color: #222;
+      color: white;
+      text-align: center;
       padding: 1rem;
       margin-top: 2rem;
     }
   </style>
 </head>
 <body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <header>
-    <h1>Hello, I'm Sai</h1>
-    <p>Coding Enthusiast | Web Developer</p>
+    <h1>Hi, I'm Sai 👋</h1>
+    <p>Frontend Developer | Coder | Learner</p>
   </header>
 
-  <section>
+  <section id="about">
     <h2>About Me</h2>
-    <p>I enjoy building websites and learning new coding skills.</p>
+    <p>I’m passionate about creating clean, responsive websites using HTML, CSS, and JavaScript. I love learning new tech and building cool stuff!</p>
   </section>
 
-  <section>
-    <h2>Contact Me</h2>
-    <p>
-      <a href="https://github.com/saigopi903" target="_blank">GitHub</a> |
-      <a href="mailto:youremail@example.com">Email</a>
-    </p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🌐 Portfolio Website</li>
+      <li>📱 Calculator App</li>
+      <li>💡 To-Do List with JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/saigopi903" target="_blank">saigopi903</a></p>
   </section>
 
   <footer>
     <p>© 2025 Sai. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
